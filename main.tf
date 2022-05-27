@@ -21,7 +21,7 @@ data "aws_acm_certificate" "test-cert" {
 
 data "consul_key" "test" {
   key {
-    name    = "test"
+    name    = "test-2"
     path    = "examples/test.json"
     default = "{}"
   }
