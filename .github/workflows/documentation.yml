@@ -10,7 +10,7 @@ jobs:
         ref: ${{ github.event.pull_request.head.ref }}
 
     - name: Should generate README.md for tf12_bsic
-      uses: ./
+      uses: terraform-docs/gh-actions@main
       with:
         working-dir: .
         output-file: README.md
