@@ -1,4 +1,4 @@
-formatter: markdown table
+formatter: markdown
 sections:
   show:
     - inputs
