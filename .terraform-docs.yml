@@ -2,6 +2,7 @@ formatter: markdown
 sections:
   show:
     - inputs
+    - outputs
 sort:
   enabled: true
   by: required
